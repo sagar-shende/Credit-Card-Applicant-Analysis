@@ -52,25 +52,54 @@ This project analyzes historical applicant and credit record data to surface ins
 
 ---
 
-## 📊 KPIs
+## 📊 KPIs (10) – Card Visuals
 
-- Total Applicants
-- Approval Rate (%)
-- Average Applicant Income
-- Default / Overdue Rate
-- Applicant Distribution by Occupation & Family Status
-- Income vs. Credit Risk Correlation
+1. Total Customers
+2. Total Annual Income
+3. Average Annual Income
+4. Average Customer Age (from `DAYS_BIRTH`)
+5. Average Employment Duration (from `DAYS_EMPLOYED`)
+6. Car Ownership Rate (%)
+7. Real Estate Ownership Rate (%)
+8. Average Family Size
+9. Average Number of Children
+10. Customers with Contact Information (%) (Phone/Email/Work Phone)
 
 ---
 
-## 🔍 EDA Questions
+## 🔍 EDA Questions (20) – Charts/Graphs
 
-1. What is the overall approval vs. rejection distribution?
-2. How does income level vary across occupation types?
-3. Is there a relationship between family size and credit risk?
-4. Which housing type shows the highest concentration of risky applicants?
-5. Do applicants with longer employment history show better credit behavior?
-6. How does age group correlate with default rate?
+**Customer Demographics**
+1. What is the gender distribution of customers?
+2. Which age group has the highest number of customers?
+3. Which family status has the highest number of customers?
+4. Which housing type has the highest number of customers?
+
+**Income Analysis**
+5. Which income type has the highest number of customers?
+6. Which income type has the highest average annual income?
+7. Which education level has the highest average annual income?
+8. Which occupation has the highest average annual income?
+9. How does annual income vary across age groups?
+10. How does annual income vary by family status?
+
+**Education & Occupation**
+11. Which education level is most common among customers?
+12. Which occupation has the highest number of customers?
+13. What is the relationship between education level and occupation?
+
+**Asset Analysis**
+14. Which income type has the highest car ownership?
+15. Which education level has the highest real estate ownership?
+16. Which occupation has the highest real estate ownership?
+
+**Family Analysis**
+17. Which family status has the highest average number of children?
+18. Which housing type has the largest average family size?
+
+**Contact Analysis**
+19. Which occupation has the highest email usage?
+20. Which income type has the highest work phone availability?
 
 ---
 
